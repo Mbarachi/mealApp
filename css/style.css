@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/);
+}
+.topnav {
+    background-color: #d31f03;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .topnav .login-container {
+    float: right;
+  }
+
+  /* .topnav input[type=text], .topnav input[type=password]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+    border: 1px solid #ffff;
+    width: 100%; /* adjust as needed (as long as it doesn't break the topnav) */
+   */
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(143, 131, 131);
+    /* color: black; */
+  }
+
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    /* background-color: rgb(36, 34, 34); */
+    color: white;
+  }
+
+  .login-form{
+      float: right;
+      margin-right: 100px;
+      letter-spacing: 1px;
+      font-size: 14px;
+  }
+
+  div form table tr td input{
+      padding: 5px;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: azure;
+      border: none;
+      margin: 1px;
+  }
+  .form-wrap{
+      width: 320px;
+      background-color: rgb(22, 21, 21);
+      padding: 20px 20px;
+      box-sizing: border-box;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  form input{
+      width: 100%;
+      background-color: white;
+      border: 1px solid #ffffff;
+      border-radius: 3px;
+      padding: 5px 15px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+  }
+
+  form input[type = "button"]{
+      background-color: rgb(187, 5, 5);
+      border: 0;
+      cursor: pointer;
+      font-size: 13px;
+      color: #ffffff
+  }
+  form h1{
+      text-align: center;
+      margin-bottom: 20px;
+      color: aliceblue;
+  }
+p{
+    color: white;
+}
+p span a{
+    color: darkred;
+}
+
+  form input[type = "button"]:hover{
+    background:chocolate;
+}
+
+span p {
+    float: right;
+    padding: 5px;
+}
